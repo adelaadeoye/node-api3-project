@@ -70,7 +70,7 @@ router.put("/:id", validatePostId, (req, res) => {
           });
       }
     } else {
-      res.status(400).json({ message: "invalid user id or Id not provided" });
+      res.status(400).json({ message: "invalid user id or Id not provided 🤡" });
     }
   });
   console.log(req.body);
